@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Falling from '~/components/Falling'
+import Test from '~/components/Test'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <Falling />
+        {/* <Test /> */}
       </main>
     </>
   )

@@ -110,7 +110,7 @@ a {
 body {
   margin: 0;
   padding: 0;
-  background: cadetblue;
+  background: #0f4c81;
   color: transparent;
   font-family: 'Inconsolata', monospace;
   width: 100vw;
@@ -122,21 +122,32 @@ body {
 }
 .word {
   position: absolute;
+  /* position: static; */
+  /* display: block; */
   cursor: grab;
-  font-size: 30px;
+  font-size: 60px;
   color: #ffeb3b;
 }
-.word-link {
+.word--about {
+  font-size: 80px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.word--menu {
+  text-align: center;
   padding: 5px;
 }
-.word.highlighted {
-  font-weight: bold;
-  color: black;
+.word--contact {
+  text-align: center;
+  padding: 5px;
+}
+.word--info {
+  font-size: 40px;
 }
 
 a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: aliceblue;
   display: block;
   padding: 0rem;
